@@ -5,6 +5,7 @@ if __name__ == "__main__":
     print(f'Hello {name}')
 
     #Counts most used word
+    #Created by: James Mertz
     with open('01_random.txt') as reader: #scrpit from Lord of the Rings
         counts = dict()
         for line in reader:
